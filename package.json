@@ -1,0 +1,25 @@
+{
+  "name": "protractor-sample",
+  "version": "0.0.1",
+  "description": "just a basic automated web test using protractor",
+  "main": "test.js",
+  "scripts": {
+    "test": "protractor config.protractor.js",
+    "serve": "webdriver-manager start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzero86/Protractor-Sample.git"
+  },
+  "author": "@tzero86",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tzero86/Protractor-Sample/issues"
+  },
+  "homepage": "https://github.com/tzero86/Protractor-Sample#readme",
+  "dependencies": {
+    "protractor": "^5.4.0",
+    "jasmine": "^3.2.0",
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}
